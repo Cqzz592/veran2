@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Restaurante</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho com navegação -->
+    <header>
+        <nav>
+            <a href="cardapio.html">Cardápio</a>
+            <a href="index.html">Inicio</a>
+        </nav>
+    </header>
+    <div class="linha"></div>
+
+    <!-- Conteúdo principal -->
+    <div class="container">
+        <div class="illustration"></div>
+        <h1>Reverve sua mesa</h1>
+        
+        
+    </div>
+
+    <!-- Seção de Agendamento -->
+    <div class="reservation-section">
+        <h2>Agende sua mesa</h2>
+        <form class="reservation-form">
+            <label for="date">Data:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Horário:</label>
+            <input type="time" id="time" name="time" min="09:00" max="22:00" required>
+
+            <label for="guests">Número de pessoas:</label>
+            <input type="number" id="guests" name="guests" min="1" max="6" required>
+
+            <label for="notes">Observações:</label>
+            <textarea id="notes" name="notes" rows="3" placeholder="Exemplo: Preferência de mesa, alergias, etc."></textarea>
+
+            
+        </form>
+    </div>
+    <div class="reservation-section">
+        <h2>Escolha uma mesa</h2>
+        <div class="tables">
+            <button class="table available" data-table="1">1</button>
+            <button class="table available" data-table="2">2</button>
+            <button class="table available" data-table="3">3</button>
+            <button class="table available" data-table="4">4</button>
+            <button class="table available" data-table="5">5</button>
+            <button class="table available" data-table="6">6</button>
+            <button class="table available" data-table="7">7</button>
+            <button class="table available" data-table="8">8</button>
+            <button class="table available" data-table="9">9</button>
+            <button class="table available" data-table="10">10</button>
+            <button class="table available" data-table="11">11</button>
+            <button class="table available" data-table="12">12</button>
+            <button class="table available" data-table="13">13</button>
+            <button class="table available" data-table="14">14</button>
+            <button class="table available" data-table="15">15</button>
+        </div>
+        
+    </div>
+    <a href="agenda.html" class="btn">Reservar</a>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
