@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'MinhaFonte';
-    src: url('Downloads') format('opentype'),
-         url('Downloads/lemon_milk/LEMONMILK-Regular.otf') format('opentype');
+    src: url('LEMONMILK-Light.otf') format('opentype'),
+         url(LEMONMILK-Light.otf) format('opentype');
     font-weight: normal;
     font-style: normal;
 }
